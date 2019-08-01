@@ -1,0 +1,299 @@
+.navbar {
+  background-color: #61a534;
+  .navbar-collapse {
+    margin-left: 25px;
+    .nav-item {
+      .nav-link {
+        overflow-y: auto;
+        color: white;
+      }
+    }
+    .nav-item :hover {
+      color: #24fae8;
+    }
+  }
+}
+
+// section1
+.carousel-item {
+  img {
+    width: 100%;
+    height: 600px;
+  }
+}
+// section2
+.welcome {
+  padding: 2.5rem 0 1.5rem;
+  background-color: #f2f2f2;
+  h3,
+  p {
+    text-align: center;
+  }
+  h3 {
+    padding-bottom: 5%;
+    background: rgba(0, 0, 0, 0)
+      url(http://thietkewebnhanh247.com/wp-content/themes/thietkewebsite/img/bg_h2.png)
+      no-repeat scroll center bottom;
+    color: #61a534;
+    font-weight: bold;
+  }
+}
+
+//section3
+.resource {
+  h3,
+  p {
+    text-align: center;
+  }
+  h3 {
+    padding-top: 3%;
+    padding-bottom: 5%;
+    background: rgba(0, 0, 0, 0)
+      url(http://thietkewebnhanh247.com/wp-content/themes/thietkewebsite/img/bg_h2.png)
+      no-repeat scroll center bottom;
+    color: #61a534;
+    font-weight: bold;
+  }
+  ul {
+    display: flex;
+    li {
+      z-index: 1;
+      background-color: #f2f2f2;
+      list-style: none;
+      text-align: center;
+      margin: 10px;
+      padding: 2.5rem 0 1.5rem;
+      a {
+        text-decoration: none;
+        color: #61a534;
+        h4 {
+          margin-top: 2%;
+        }
+      }
+      p {
+        text-align: center;
+      }
+    }
+    li:hover {
+      transform: scale(1.1);
+      transition: all 1.5s;
+    }
+  }
+  .abc1,
+  .abc2 {
+    text-align: center;
+  }
+}
+
+//section3
+.img_hover {
+  h3 {
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    background: rgba(0, 0, 0, 0)
+      url(http://thietkewebnhanh247.com/wp-content/themes/thietkewebsite/img/bg_h2.png)
+      no-repeat scroll center bottom;
+    color: #61a534;
+    font-weight: bold;
+  }
+  .hoverabc {
+    padding-bottom: 8%;
+    margin-left: 60px;
+    text-align: center;
+    display: flex;
+    figure.snip1477 {
+      font-family: "Raleway", Arial, sans-serif;
+      position: relative;
+      overflow: hidden;
+      margin: 10px;
+      min-width: 230px;
+      max-width: 315px;
+      width: 100%;
+      color: #ffffff;
+      text-align: center;
+      font-size: 16px;
+      background-color: #000000;
+      * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: all 0.55s ease;
+        transition: all 0.55s ease;
+        &:before,
+        &:after {
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          -webkit-transition: all 0.55s ease;
+          transition: all 0.55s ease;
+        }
+      }
+      img {
+        max-width: 100%;
+        backface-visibility: hidden;
+        vertical-align: top;
+        opacity: 0.9;
+      }
+      .title {
+        position: absolute;
+        top: 58%;
+        left: 25px;
+        padding: 5px 10px 10px;
+        &:before,
+        &:after {
+          height: 2px;
+          width: 400px;
+          position: absolute;
+          content: "";
+          background-color: #ffffff;
+        }
+        &:before {
+          top: 0;
+          left: 10px;
+          -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+        }
+        &:after {
+          bottom: 0;
+          right: 10px;
+          -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+        }
+        div {
+          &:before,
+          &:after {
+            width: 2px;
+            height: 300px;
+            position: absolute;
+            content: "";
+            background-color: #ffffff;
+          }
+          &:before {
+            top: 10px;
+            right: 0;
+            -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+          }
+          &:after {
+            bottom: 10px;
+            left: 0;
+            -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+          }
+        }
+      }
+      h2,
+      h4 {
+        margin: 0;
+        text-transform: uppercase;
+      }
+      h2 {
+        font-weight: 400;
+      }
+      h4 {
+        display: block;
+        font-weight: 700;
+        background-color: #ffffff;
+        padding: 5px 10px;
+        color: #000000;
+      }
+      figcaption {
+        position: absolute;
+        bottom: 42%;
+        left: 25px;
+        text-align: left;
+        opacity: 0;
+        padding: 5px 60px 5px 10px;
+        font-size: 0.8em;
+        font-weight: 500;
+        letter-spacing: 1.5px;
+        p {
+          margin: 0;
+        }
+      }
+      a {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+      &:hover img,
+      &.hover img {
+        zoom: 1;
+        filter: alpha(opacity = 35);
+        -webkit-opacity: 0.35;
+        opacity: 0.35;
+      }
+      &:hover .title:before,
+      &.hover .title:before,
+      &:hover .title:after,
+      &.hover .title:after,
+      &:hover .title div:before,
+      &.hover .title div:before,
+      &:hover .title div:after,
+      &.hover .title div:after {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+      }
+      &:hover .title:before,
+      &.hover .title:before,
+      &:hover .title:after,
+      &.hover .title:after {
+        -webkit-transition-delay: 0.15s;
+        transition-delay: 0.15s;
+      }
+      &:hover figcaption,
+      &.hover figcaption {
+        opacity: 1;
+        -webkit-transition-delay: 0.2s;
+        transition-delay: 0.2s;
+      }
+    }
+  }
+}
+
+//section4
+.contact {
+  border-top: 1px solid gray;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  text-align: center;
+  h3 {
+    padding-bottom: 3%;
+    background: rgba(0, 0, 0, 0);
+    color: #61a534;
+    font-weight: bold;
+  }
+  .main {
+    input {
+      width: 100%;
+      margin: 5%;
+    }
+  }
+}
+footer {
+  height: 100px;
+  background: #61a534;
+  p {
+    text-align: center;
+    padding-top: 3%;
+  }
+}
+// tool html
+.text {
+  padding: 3%;
+  background-color: #f2f2f2;
+}
+.title {
+  input {
+    margin: 3%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .abc2 {
+    display:none;
+  }
+  .abc3{
+    display: block;
+  }
+}
